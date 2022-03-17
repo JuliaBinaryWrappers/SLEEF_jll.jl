@@ -11,13 +11,13 @@ function __init__()
     JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, MPFR_jll, OpenSSL_jll)
     JLLWrappers.@init_library_product(
         libsleef,
-        "lib/libsleef.3.4.0.dylib",
+        "lib/libsleef.3.4.1.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libsleefquad,
-        "lib/libsleefquad.3.4.0.dylib",
+        "lib/libsleefquad.3.4.1.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
