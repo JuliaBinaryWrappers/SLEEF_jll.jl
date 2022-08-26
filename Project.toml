@@ -1,6 +1,6 @@
 name = "SLEEF_jll"
 uuid = "63e82ce6-3d80-5af4-a84c-484b71ab98bb"
-version = "3.4.1+0"
+version = "3.5.2+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
