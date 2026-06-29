@@ -1,86 +1,86 @@
 [[SLEEF]]
-arch = "aarch64"
-git-tree-sha1 = "c8f8884386cc49365813a44300a0bda1a3bbe648"
-os = "macos"
-
-    [[SLEEF.download]]
-    sha256 = "a8456083752b34f849bfe1cd351d19b4636dac74073372563823030928795dcd"
-    url = "https://github.com/JuliaBinaryWrappers/SLEEF_jll.jl/releases/download/SLEEF-v3.9.0+0/SLEEF.v3.9.0.aarch64-apple-darwin.tar.gz"
-[[SLEEF]]
-arch = "aarch64"
-git-tree-sha1 = "9c6ec6a774d4a5812d845866d89c2ed8445ad8bc"
+arch = "x86_64"
+git-tree-sha1 = "93c4f3f7c22636c4b9446ceeb47a0dedd921138a"
 libc = "glibc"
 os = "linux"
 
     [[SLEEF.download]]
-    sha256 = "8fca5b6bb95af030ba9641e61910a1e1ae8882dd24e160816f609bea15999d27"
-    url = "https://github.com/JuliaBinaryWrappers/SLEEF_jll.jl/releases/download/SLEEF-v3.9.0+0/SLEEF.v3.9.0.aarch64-linux-gnu.tar.gz"
+    sha256 = "7ebc03e85cf1997cb9d5dfefbfc8de02b302c639671d051adb9674a0b6b04770"
+    url = "https://github.com/JuliaBinaryWrappers/SLEEF_jll.jl/releases/download/SLEEF-v3.9.0+1/SLEEF.v3.9.0.x86_64-linux-gnu.tar.gz"
 [[SLEEF]]
 arch = "aarch64"
-git-tree-sha1 = "20e125cd44197a5c090c75643accd14ba3e6a34d"
-libc = "musl"
+git-tree-sha1 = "22061895ecb23e002b6bc0d3712907fd5850c260"
+libc = "glibc"
 os = "linux"
 
     [[SLEEF.download]]
-    sha256 = "6901444e5ef6ec921b1991aa218d615a52b851d56c765df24f1b5f4c2b28824e"
-    url = "https://github.com/JuliaBinaryWrappers/SLEEF_jll.jl/releases/download/SLEEF-v3.9.0+0/SLEEF.v3.9.0.aarch64-linux-musl.tar.gz"
-[[SLEEF]]
-arch = "aarch64"
-git-tree-sha1 = "206071e812b9c7e534488149234963a66be967a0"
-os = "freebsd"
-
-    [[SLEEF.download]]
-    sha256 = "b1fbafb92b109dc0ab9915e48eac17fae8cf3d501db71d68d83d81b1c6273de5"
-    url = "https://github.com/JuliaBinaryWrappers/SLEEF_jll.jl/releases/download/SLEEF-v3.9.0+0/SLEEF.v3.9.0.aarch64-unknown-freebsd.tar.gz"
+    sha256 = "2863c42855e7f9c6fafddd22f20074bb1c03806fb9acfa8d59149d9785cf478e"
+    url = "https://github.com/JuliaBinaryWrappers/SLEEF_jll.jl/releases/download/SLEEF-v3.9.0+1/SLEEF.v3.9.0.aarch64-linux-gnu.tar.gz"
 [[SLEEF]]
 arch = "powerpc64le"
-git-tree-sha1 = "102965c0e5196007fe0e32845cd74cae296c0d67"
+git-tree-sha1 = "375b62d50e158ef85589032a84e0697fb2d2def0"
 libc = "glibc"
 os = "linux"
 
     [[SLEEF.download]]
-    sha256 = "74c93f05aedd66ff9b56c4b755ce51d4066475e0768826f897fb4676066bd70b"
-    url = "https://github.com/JuliaBinaryWrappers/SLEEF_jll.jl/releases/download/SLEEF-v3.9.0+0/SLEEF.v3.9.0.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "3023cf17049f66919fc27e90e34f35de6d89e02ab8915a865bf0cca28ed1d20f"
+    url = "https://github.com/JuliaBinaryWrappers/SLEEF_jll.jl/releases/download/SLEEF-v3.9.0+1/SLEEF.v3.9.0.powerpc64le-linux-gnu.tar.gz"
 [[SLEEF]]
 arch = "riscv64"
-git-tree-sha1 = "0986d6bbcfd1bc7e7d54930449590db23f9aecec"
+git-tree-sha1 = "e41d38630ff357930c2efa159466c1647aabf5d6"
 libc = "glibc"
 os = "linux"
 
     [[SLEEF.download]]
-    sha256 = "63d556db822986e27b13a878503669afc90630c758d1d134f190d2177d4c488e"
-    url = "https://github.com/JuliaBinaryWrappers/SLEEF_jll.jl/releases/download/SLEEF-v3.9.0+0/SLEEF.v3.9.0.riscv64-linux-gnu.tar.gz"
+    sha256 = "5a562c7bf6ad553738958109d7cdb9d4597e307e62ceb2e2b3f76db476cf3ef6"
+    url = "https://github.com/JuliaBinaryWrappers/SLEEF_jll.jl/releases/download/SLEEF-v3.9.0+1/SLEEF.v3.9.0.riscv64-linux-gnu.tar.gz"
 [[SLEEF]]
 arch = "x86_64"
-git-tree-sha1 = "d3312f75f62e5d315e77bcd9eb1f0525b50f31ce"
-os = "macos"
-
-    [[SLEEF.download]]
-    sha256 = "64f0e5f7fd451db8736a7a16282a22830aa295d3990c50e097557d3bae32ba15"
-    url = "https://github.com/JuliaBinaryWrappers/SLEEF_jll.jl/releases/download/SLEEF-v3.9.0+0/SLEEF.v3.9.0.x86_64-apple-darwin.tar.gz"
-[[SLEEF]]
-arch = "x86_64"
-git-tree-sha1 = "da0e064ab6bc89835082e4314c9646afff56d46d"
-libc = "glibc"
-os = "linux"
-
-    [[SLEEF.download]]
-    sha256 = "4ea212dcbbed57cb014931b83e8cecb5c1ec43849a21a17fcdc3aaf43ab5c50a"
-    url = "https://github.com/JuliaBinaryWrappers/SLEEF_jll.jl/releases/download/SLEEF-v3.9.0+0/SLEEF.v3.9.0.x86_64-linux-gnu.tar.gz"
-[[SLEEF]]
-arch = "x86_64"
-git-tree-sha1 = "e254901333426dcaafcfec15a8e786045f232562"
+git-tree-sha1 = "2338491ce82604656f5c400c1da0e2930b5f10f0"
 libc = "musl"
 os = "linux"
 
     [[SLEEF.download]]
-    sha256 = "7043229f8953580fb51e8fd15cc85b3f0c9b66f709c8e4f5fdd6c5aa3802b1d1"
-    url = "https://github.com/JuliaBinaryWrappers/SLEEF_jll.jl/releases/download/SLEEF-v3.9.0+0/SLEEF.v3.9.0.x86_64-linux-musl.tar.gz"
+    sha256 = "91084148f7fe8cae94dcd993ad49f0f0962e0131fa2ae6b89beeec5efd6df05a"
+    url = "https://github.com/JuliaBinaryWrappers/SLEEF_jll.jl/releases/download/SLEEF-v3.9.0+1/SLEEF.v3.9.0.x86_64-linux-musl.tar.gz"
+[[SLEEF]]
+arch = "aarch64"
+git-tree-sha1 = "ffbd602eb6abff6b0b19121443ba5c979d59b168"
+libc = "musl"
+os = "linux"
+
+    [[SLEEF.download]]
+    sha256 = "37ecad11e16ec48d8dfe4995c898acfd5ce51e788e067b7269cd01ef7f55e040"
+    url = "https://github.com/JuliaBinaryWrappers/SLEEF_jll.jl/releases/download/SLEEF-v3.9.0+1/SLEEF.v3.9.0.aarch64-linux-musl.tar.gz"
 [[SLEEF]]
 arch = "x86_64"
-git-tree-sha1 = "151ab66a5cccd0cdf6e7a52be4239871713a90b6"
+git-tree-sha1 = "1a28a66084d93fa00c27b4dfeaecccbf32300ec7"
+os = "macos"
+
+    [[SLEEF.download]]
+    sha256 = "146f4710e30da80c74c2c2ef8274f0dc9ea72673d61ffad0f38258d64bb33b50"
+    url = "https://github.com/JuliaBinaryWrappers/SLEEF_jll.jl/releases/download/SLEEF-v3.9.0+1/SLEEF.v3.9.0.x86_64-apple-darwin.tar.gz"
+[[SLEEF]]
+arch = "aarch64"
+git-tree-sha1 = "207a6042715e1cf3e0b2337c931ca634689293fa"
+os = "macos"
+
+    [[SLEEF.download]]
+    sha256 = "2eca704596a6f9da75599a21b57ff010404a96f597e5e26a8c412e45b7e06580"
+    url = "https://github.com/JuliaBinaryWrappers/SLEEF_jll.jl/releases/download/SLEEF-v3.9.0+1/SLEEF.v3.9.0.aarch64-apple-darwin.tar.gz"
+[[SLEEF]]
+arch = "x86_64"
+git-tree-sha1 = "9a682bad4ebaa97a4b4169639d0208f4ce6d791f"
 os = "freebsd"
 
     [[SLEEF.download]]
-    sha256 = "8a3120502d11a38947ebc00aa69164ed470bac3178dfbb6d417a71f6c0dd460b"
-    url = "https://github.com/JuliaBinaryWrappers/SLEEF_jll.jl/releases/download/SLEEF-v3.9.0+0/SLEEF.v3.9.0.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "9de57b42af210fa6b3c667e06562d3c6357bc7c571beeeaca2e055ad35b37dc0"
+    url = "https://github.com/JuliaBinaryWrappers/SLEEF_jll.jl/releases/download/SLEEF-v3.9.0+1/SLEEF.v3.9.0.x86_64-unknown-freebsd.tar.gz"
+[[SLEEF]]
+arch = "aarch64"
+git-tree-sha1 = "96f5eb7729319370417182498e67315649d875b1"
+os = "freebsd"
+
+    [[SLEEF.download]]
+    sha256 = "7ac8f41a3ba623c7fad5d9dca67e80601b61fda42c628ccecc2db7f60f422328"
+    url = "https://github.com/JuliaBinaryWrappers/SLEEF_jll.jl/releases/download/SLEEF-v3.9.0+1/SLEEF.v3.9.0.aarch64-unknown-freebsd.tar.gz"
