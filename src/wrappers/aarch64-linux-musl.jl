@@ -25,7 +25,7 @@ function __init__()
     JLLWrappers.@init_library_product(
         libsleefgnuabi,
         "lib/libsleefgnuabi.so",
-        nothing,
+        RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
